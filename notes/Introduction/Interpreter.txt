@@ -1,0 +1,13 @@
+Interpreter 
+
+An interpreter is a program or software component that reads and executes code written in a programming language. It converts the human-readable source code into machine-understandable instructions and performs the actions specified by the code. Interpreters are commonly used in languages like Python, Ruby, JavaScript, and more.
+
+Here's how an interpreter works:
+
+Parsing: The interpreter reads the source code line by line, breaking it down into smaller components such as statements, expressions, and keywords. This process is known as parsing.
+
+Conversion: The interpreter converts the parsed code into intermediate representations or tokens that represent different parts of the code. This makes it easier for the interpreter to understand and process the code's structure and logic.
+
+Execution: The interpreter then processes each token or statement, carrying out the instructions specified in the code. It interacts with the system's resources (such as memory and hardware) to perform tasks like calculations, data manipulation, input/output operations, and more.
+
+Immediate Feedback: Since an interpreter executes code line by line, it provides immediate feedback to the programmer. This means you can quickly see the results of your code modifications without needing to go through a separate compilation step.

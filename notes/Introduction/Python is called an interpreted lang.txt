@@ -1,0 +1,10 @@
+Python is called an interpreted language because of the way it is executed. In traditional compiled 
+languages like C++ or Java, the source code is transformed into machine code (binary code) by a compiler
+ before the program is run. This compiled machine code can be executed directly by the computer's processor.
+
+However, in interpreted languages like Python, the source code is not compiled into machine code beforehand.
+ Instead, it is directly executed by an interpreter. Here's how the process works
+
+Because of this interpretation process, Python programs are generally considered easier to develop and test.
+You can make changes to your code and immediately see the results without needing to recompile the entire program.
+However, this can also lead to slightly slower execution compared to compiled languages, as the interpretation adds a layer of overhead.
