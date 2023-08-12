@@ -1,0 +1,8 @@
+Bitwise operators in Python are used to manipulate individual bits of integers. They perform operations on the binary representation of integers. Here are the commonly used bitwise operators in Python:
+
+& (Bitwise AND): Returns 1 if both bits at the corresponding position are 1, otherwise returns 0.
+| (Bitwise OR): Returns 1 if either of the bits at the corresponding position is 1, otherwise returns 0.
+^ (Bitwise XOR): Returns 1 if the bits at the corresponding position are different, otherwise returns 0.
+~ (Bitwise NOT): Flips the bits, turning 1s into 0s and vice versa. It's a unary operator.
+<< (Left Shift): Shifts the bits of a number to the left by a specified number of positions.
+>> (Right Shift): Shifts the bits of a number to the right by a specified number of positions.
