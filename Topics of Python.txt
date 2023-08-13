@@ -22,7 +22,6 @@ Object-Oriented Programming (OOP) Basics
 Classes and Objects
 Inheritance and Polymorphism
 Advanced String Manipulation
-List Comprehensions
 Generators
 Decorators
 Lambda Functions

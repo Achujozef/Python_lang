@@ -1,0 +1,1 @@
+Tuples are a data structure in Python that allows you to store an ordered collection of elements. Tuples are similar to lists, but they have an important difference: tuples are immutable, which means once they are created, their elements cannot be changed, added, or removed. 
