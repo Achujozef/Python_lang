@@ -1,0 +1,12 @@
+
+Generators in Python are a type of iterator that allows you to create iterable sequences of values using a more memory-efficient and lazy evaluation approach. They are a powerful way to generate values on-the-fly without storing the entire sequence in memory. Generators are defined using functions with the yield keyword instead of the return keyword.
+
+Here are the key concepts and benefits of generators:
+
+Lazy Evaluation: Generators produce values one at a time, only when they are requested. This allows you to work with large datasets or infinite sequences without loading everything into memory at once.
+
+Memory Efficiency: Since generators don't store the entire sequence in memory, they are memory-efficient and suitable for handling large datasets.
+
+Syntax: Generators are created using functions with the yield keyword. When the function is called, it doesn't execute immediately. Instead, it returns a generator object, and the function's body is executed only when you iterate over the generator using a loop or other iterator methods.
+
+Stateful: Generators can maintain internal state between successive iterations. The state is preserved between calls, which is not the case with normal functions.
