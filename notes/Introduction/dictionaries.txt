@@ -1,0 +1,1 @@
+Dictionaries in Python are a versatile data structure that allow you to store and retrieve key-value pairs. Keys within a dictionary must be unique and immutable (strings, numbers, or tuples), while the corresponding values can be of any data type. Dictionaries are enclosed in curly braces {} and consist of comma-separated key-value pairs in the format key: value.

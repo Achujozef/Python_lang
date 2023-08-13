@@ -1,0 +1,9 @@
+Sets are a fundamental data structure in Python that are used to store collections of unique elements. Here are some more details about sets:
+
+Key Characteristics of Sets:
+
+Unordered: The elements in a set are not stored in any particular order. This means you cannot access elements using indexes.
+
+Unique Elements: Sets only store unique elements. If you try to add a duplicate element, it will not be added to the set.
+
+Mutable: You can add and remove elements from a set after it's been created.
