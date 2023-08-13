@@ -8,3 +8,14 @@ def sideTriPtrn(rows):
             print('* ' * x)
 
 sideTriPtrn(50)
+
+
+x=[True,True,False,True]
+
+
+for i in range(len(x)):
+    if x[i]:
+        print(i)
+
+
+
