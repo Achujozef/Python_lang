@@ -1,0 +1,7 @@
+
+A closure in Python refers to a function object that has access to variables in its lexical scope, even after the scope in which the function was defined has finished executing. In simpler terms, a closure "closes over" the variables it references, allowing it to remember those variables even if they are no longer in scope.
+
+Closures are created when:
+
+A nested function references a variable from its containing (enclosing) function.
+The containing function returns the nested function.

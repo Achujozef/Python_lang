@@ -1,0 +1,50 @@
+Python provides a wide range of built-in functions that are available for you to use without needing to import any additional modules. These functions cover various tasks like data type conversion, mathematical operations, string manipulation, and more. Here are some commonly used built-in functions in Python:
+
+Type Conversion Functions:
+
+int(x), float(x), str(x): Convert to integer, float, or string.
+list(iterable), tuple(iterable), set(iterable): Convert to list, tuple, or set.
+bool(x): Convert to boolean.
+Mathematical Functions:
+
+abs(x): Absolute value.
+round(x): Round to the nearest integer.
+max(iterable), min(iterable): Maximum and minimum values.
+sum(iterable): Sum of elements.
+String Functions:
+
+len(s): Length of a string.
+str.lower(), str.upper(): Convert to lowercase or uppercase.
+str.capitalize(), str.title(): Capitalize the first letter or title case.
+str.strip(), str.lstrip(), str.rstrip(): Remove whitespace.
+str.startswith(prefix), str.endswith(suffix): Check for prefix or suffix.
+Input and Output Functions:
+
+input(prompt): Take user input.
+print(*objects, sep=' ', end='\n'): Print to the console.
+List and Tuple Functions:
+
+len(iterable): Length of a list, tuple, etc.
+list.append(item), list.extend(iterable): Add elements to a list.
+list.pop(index): Remove and return an element from a list.
+Set Functions:
+
+set.add(item), set.update(iterable): Add elements to a set.
+set.remove(item), set.discard(item): Remove elements from a set.
+set.union(other_set), set.intersection(other_set): Set operations.
+Dictionary Functions:
+
+dict.keys(), dict.values(), dict.items(): Get keys, values, or key-value pairs.
+dict.get(key, default): Get value for a key, with a default value if not found.
+Other Useful Functions:
+
+range(start, stop, step): Generate a range of values.
+enumerate(iterable): Iterate with an index.
+zip(iterable1, iterable2): Pair elements from multiple iterables.
+Type Checking Functions:
+
+isinstance(obj, class_or_tuple): Check if an object is an instance of a class or tuple of classes.
+Function Manipulation Functions:
+
+callable(obj): Check if an object is callable (function, method, etc.).
+globals(), locals(): Get global and local variable dictionaries.

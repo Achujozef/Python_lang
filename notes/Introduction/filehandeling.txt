@@ -1,0 +1,71 @@
+
+File handling is an essential part of programming, allowing you to read and write data from and to files. Python provides built-in functions and methods for working with files. Here's an overview of file handling in Python:
+
+Opening Files:
+
+You can open a file using the open() function. It takes the filename as a parameter and returns a file object that you can use to perform file operations.
+
+python
+Copy code
+file = open("example.txt", "r")  # Opens the file in read mode
+The second parameter specifies the mode in which the file is opened. Modes include:
+
+"r": Read (default mode)
+"w": Write (creates a new file or truncates an existing file)
+"a": Append (creates a new file or appends to an existing file)
+"b": Binary mode (e.g., "rb" or "wb")
+Reading from Files:
+
+You can read the content of a file using methods like read(), readline(), and readlines().
+
+python
+Copy code
+content = file.read()        # Reads the entire file
+line = file.readline()       # Reads a single line
+lines = file.readlines()     # Reads all lines into a list
+Writing to Files:
+
+You can write data to a file using the write() method.
+
+python
+Copy code
+with open("output.txt", "w") as output_file:
+    output_file.write("Hello, world!")
+The with statement ensures that the file is properly closed after the block of code.
+
+Closing Files:
+
+It's important to close files when you're done using them to free up system resources.
+
+python
+Copy code
+file.close()  # Close the file
+Using with for Automatic Resource Management:
+
+The with statement ensures that the file is properly closed after the block of code, even if an exception is raised.
+
+python
+Copy code
+with open("example.txt", "r") as file:
+    content = file.read()
+    # Do something with content
+
+# File is automatically closed when the block exits
+Iterating Over Lines in a File:
+
+You can use a for loop to iterate over lines in a file.
+
+python
+Copy code
+with open("example.txt", "r") as file:
+    for line in file:
+        print(line)
+Working with Binary Files:
+
+You can read and write binary data using the "rb" (read binary) and "wb" (write binary) modes.
+
+python
+Copy code
+with open("image.jpg", "rb") as binary_file:
+    data = binary_file.read()
+File handling is a fundamental aspect of programming for working with data stored in files. It's crucial to manage files properly to avoid data loss or resource leaks.
