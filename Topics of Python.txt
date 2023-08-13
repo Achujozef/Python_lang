@@ -3,7 +3,7 @@ Introduction to Python:
 
 Operators and Expressions
 Control Flow (if, else, while, for)
-Lists
+List  s
 Tuples
 Dictionaries
 Sets
